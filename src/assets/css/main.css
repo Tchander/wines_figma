@@ -20,3 +20,11 @@
 .wines__btn:hover {
   background: #ac9835;
 }
+.wines-rectangle {
+  width: 100%;
+  border: 3px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 60px 0;
+  text-align: center;
+  color: #fff;
+}

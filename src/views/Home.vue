@@ -3,6 +3,7 @@
     <header-section />
     <best-taste />
     <collection />
+    <degustation />
   </div>
 </template>
 
@@ -10,8 +11,9 @@
 import HeaderSection from "../components/HeaderSection";
 import BestTaste from "../components/BestTaste";
 import Collection from "../components/Collection";
+import Degustation from "../components/Degustation";
 export default {
   name: "Home",
-  components: { Collection, BestTaste, HeaderSection },
+  components: { Degustation, Collection, BestTaste, HeaderSection },
 };
 </script>

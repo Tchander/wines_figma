@@ -1,7 +1,7 @@
 <template>
   <div class="wines-best-section">
     <div class="wines-container">
-      <div class="wines-best-rectangle">
+      <div class="wines-best-rectangle wines-rectangle">
         <div class="wines-best__inner-wrapper">
           <div class="wines-best__title">
             Лучший вкус, это вкус долголетнего вина
@@ -38,12 +38,6 @@ export default {
   background: #282828;
   padding: 100px 0;
   .wines-best-rectangle {
-    width: 100%;
-    border: 3px solid #c4c4c4;
-    box-sizing: border-box;
-    padding: 60px 0;
-    text-align: center;
-    color: #fff;
     .wines-best__inner-wrapper {
       width: 100%;
       max-width: 736px;
@@ -55,7 +49,7 @@ export default {
         margin-bottom: 54px;
       }
       .wines-best__line {
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #fff;
         width: 21.7%;
         margin: 0 auto 40px auto;
       }
