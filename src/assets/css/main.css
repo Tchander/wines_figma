@@ -1,0 +1,22 @@
+.wines-container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.wines__btn {
+  color: #fff;
+  background: #99862a;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: ease-in-out 0.35s;
+}
+.wines__btn:hover {
+  background: #ac9835;
+}
