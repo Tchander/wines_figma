@@ -80,6 +80,14 @@ export default {
         display: flex;
         justify-content: space-between;
         padding: 19px 95px;
+        @media (max-width: 1263px) {
+          padding-left: 65px;
+          padding-right: 65px;
+        }
+        @media (max-width: 959px) {
+          font-size: 12px;
+          padding: 15px 0;
+        }
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
         li {
@@ -96,6 +104,13 @@ export default {
       padding: 0 95px;
       border-bottom: 1px solid #fff;
       color: #fff;
+      @media (max-width: 1263px) {
+        padding-left: 65px;
+        padding-right: 65px;
+      }
+      @media (max-width: 959px) {
+        padding: 0;
+      }
       .wines-footer-bottom__item {
         font-weight: 600;
         line-height: 150%;
@@ -104,9 +119,18 @@ export default {
         align-items: center;
         border-right: 1px solid #fff;
         padding: 19px 0;
+        @media (max-width: 959px) {
+          font-size: 12px;
+          font-weight: 400;
+        }
       }
       .wines-footer-bottom__item-name {
         width: 28%;
+        @media (max-width: 959px) {
+          width: 25%;
+          justify-content: center;
+          text-align: center;
+        }
       }
       .wines-footer-bottom__item-phone {
         width: 25%;
@@ -120,11 +144,19 @@ export default {
         width: 28%;
         padding: 0 36px;
         border-right: 1px solid #fff;
+        @media (max-width: 959px) {
+          width: 25%;
+          padding: 0 10px;
+        }
       }
       .wines-footer-bottom__item-copyright {
         border-right: none;
         width: 19%;
         justify-content: flex-end;
+        @media (max-width: 959px) {
+          width: 25%;
+          justify-content: center;
+        }
       }
     }
   }

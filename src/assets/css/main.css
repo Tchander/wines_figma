@@ -28,3 +28,16 @@
   text-align: center;
   color: #fff;
 }
+@media (max-width: 1263px) {
+  .wines-container {
+    max-width: 920px;
+  }
+}
+@media (max-width: 959px) {
+  .wines-container {
+    max-width: 580px;
+  }
+  .wines-rectangle {
+    padding: 40px 0;
+  }
+}

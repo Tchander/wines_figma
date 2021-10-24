@@ -107,17 +107,30 @@ export default {
 .wines-collection-section {
   background: #e6e3c4;
   padding: 78px 0;
+  @media (max-width: 959px) {
+    padding: 58px 0;
+  }
   .wines-collection__content {
     display: flex;
     border-top: 1px solid #998431;
     border-bottom: 1px solid #998431;
     padding: 60px 0;
+    @media (max-width: 959px) {
+      padding: 42px 0;
+    }
     .wines-collection__content-info {
       margin-right: 110px;
+      @media (max-width: 959px) {
+        margin-right: 0;
+        width: 75%;
+      }
       .wines-collection__content-info__subtitle {
         font-size: 16px;
         line-height: 150%;
         margin-bottom: 30px;
+        @media (max-width: 959px) {
+          margin-bottom: 15px;
+        }
       }
       .wines-collection__content-info__title {
         font-family: "Playfair Display", sans-serif;
@@ -128,12 +141,20 @@ export default {
         width: 100%;
         max-width: 298px;
         margin-bottom: 30px;
+        @media (max-width: 959px) {
+          font-size: 34px;
+          margin-bottom: 15px;
+        }
       }
       .wines-collection__content-info__line {
         width: 100%;
         max-width: 160px;
         border-bottom: 1px solid #282828;
         margin-bottom: 30px;
+        @media (max-width: 959px) {
+          max-width: 100%;
+          margin-bottom: 15px;
+        }
       }
       .wines-collection__content-info__text {
         line-height: 150%;
@@ -141,11 +162,17 @@ export default {
         width: 100%;
         max-width: 445px;
         margin-bottom: 30px;
+        @media (max-width: 959px) {
+          margin-bottom: 15px;
+        }
       }
       .wines-collection__content-info__cards {
         display: flex;
         flex-direction: column;
         margin-bottom: 38px;
+        @media (max-width: 959px) {
+          margin-bottom: 20px;
+        }
         .wines-collection__content-info__cards-card {
           display: flex;
           border-bottom: 1px solid #282828;
@@ -162,6 +189,9 @@ export default {
           }
           .wines-collection__content-info__cards-card-info {
             margin: 10px 0 10px 30px;
+            @media (max-width: 959px) {
+              margin-left: 10px;
+            }
             .wines-collection__content-info__cards-card-info__title {
               font-family: "Playfair Display", sans-serif;
               font-weight: 700;
@@ -169,6 +199,9 @@ export default {
               line-height: 150%;
               color: #282828;
               margin-bottom: 5px;
+              @media (max-width: 959px) {
+                font-size: 16px;
+              }
             }
             .wines-collection__content-info__cards-card-info__description {
               line-height: 150%;
@@ -183,8 +216,14 @@ export default {
     }
     .wines-collection__content-images {
       margin-left: 15px;
+      @media (max-width: 959px) {
+        width: 50%;
+      }
       .wines-collection__content-images__top {
         margin-bottom: 30px;
+        @media (max-width: 959px) {
+          margin-top: 30px;
+        }
         img {
           width: 100%;
           max-width: 540px;
@@ -193,9 +232,17 @@ export default {
       .wines-collection__content-images__bottom {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1263px) {
+          flex-direction: column;
+          align-items: center;
+        }
         img {
           width: 100%;
           max-width: 255px;
+          margin-bottom: 30px;
+          @media (max-width: 959px) {
+            margin-top: 30px;
+          }
         }
       }
     }

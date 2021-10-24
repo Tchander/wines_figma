@@ -48,13 +48,26 @@ export default {
 .wines-degustation-section {
   background: #282828;
   padding: 130px 0 100px 0;
+  @media (max-width: 959px) {
+    padding: 70px 0 50px 0;
+  }
   .wines-degustation-rectangle {
     position: relative;
     padding: 61px 0 76px 0;
+    @media (max-width: 959px) {
+      padding: 50px 0 40px 0;
+    }
     .wines-degustation-rectangle__image-left {
       position: absolute;
       left: -33px;
       top: -71px;
+      @media (max-width: 1263px) {
+        left: -20px;
+        width: 200px;
+      }
+      @media (max-width: 959px) {
+        display: none;
+      }
     }
     .wines-degustation-rectangle__title {
       position: absolute;
@@ -68,11 +81,26 @@ export default {
       color: #ffffff;
       background: #282828;
       padding: 0 49px;
+      @media (max-width: 1263px) {
+        left: 24%;
+      }
+      @media (max-width: 959px) {
+        font-size: 24px;
+        left: 18%;
+        top: -22px;
+      }
     }
     .wines-degustation-rectangle__image-right {
       position: absolute;
       right: -56px;
       top: -68px;
+      @media (max-width: 1263px) {
+        right: -22px;
+        width: 180px;
+      }
+      @media (max-width: 959px) {
+        display: none;
+      }
     }
     .wines-degustation__inner-wrapper {
       width: 100%;

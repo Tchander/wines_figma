@@ -95,6 +95,12 @@ export default {
     max-width: 415px;
     margin: 0 auto;
     padding: 584px 0 150px 0;
+    @media (max-width: 1263px) {
+      padding: 300px 0 120px 0;
+    }
+    @media (max-width: 959px) {
+      padding: 200px 0 70px 0;
+    }
   }
   .wines-header-section__image {
     position: absolute;
