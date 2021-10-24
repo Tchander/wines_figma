@@ -106,6 +106,11 @@ export default {
             border-bottom: 1px solid #fff;
             &::placeholder {
               color: #fff;
+              opacity: 1;
+              transition: opacity 0.3s ease;
+            }
+            &:focus::placeholder {
+              opacity: 0;
             }
           }
         }
@@ -122,6 +127,11 @@ export default {
             border-bottom: 1px solid #fff;
             &::placeholder {
               color: #fff;
+              opacity: 1;
+              transition: opacity 0.3s ease;
+            }
+            &:focus::placeholder {
+              opacity: 0;
             }
           }
         }
