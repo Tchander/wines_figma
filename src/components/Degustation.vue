@@ -47,17 +47,18 @@ export default {
 <style lang="scss" scoped>
 .wines-degustation-section {
   background: #282828;
-  padding: 100px 0;
+  padding: 130px 0 100px 0;
   .wines-degustation-rectangle {
     position: relative;
+    padding: 61px 0 76px 0;
     .wines-degustation-rectangle__image-left {
       position: absolute;
-      left: -30px;
-      top: -69px;
+      left: -33px;
+      top: -71px;
     }
     .wines-degustation-rectangle__title {
       position: absolute;
-      top: -31px;
+      top: -32px;
       left: 28%;
       font-family: "Playfair Display", sans-serif;
       font-weight: 700;
@@ -66,12 +67,12 @@ export default {
       text-align: center;
       color: #ffffff;
       background: #282828;
-      padding: 0 50px;
+      padding: 0 49px;
     }
     .wines-degustation-rectangle__image-right {
       position: absolute;
-      right: -53px;
-      top: -65px;
+      right: -56px;
+      top: -68px;
     }
     .wines-degustation__inner-wrapper {
       width: 100%;
@@ -87,13 +88,13 @@ export default {
         line-height: 150%;
         text-align: center;
         color: #fff;
-        margin-bottom: 78px;
+        margin-bottom: 82px;
       }
       .wines-degustation-form {
         .wines-degustation-form__inputs-top {
           display: flex;
           justify-content: space-between;
-          margin-bottom: 50px;
+          margin-bottom: 39px;
           input {
             width: 100%;
             max-width: 255px;
@@ -146,7 +147,7 @@ export default {
           line-height: 20px;
           text-align: center;
           letter-spacing: 0.05em;
-          padding: 15px 0;
+          padding: 14px 0;
           transition: ease-in-out 0.35s;
           &:hover {
             background: #fff;

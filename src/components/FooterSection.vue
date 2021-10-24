@@ -79,7 +79,7 @@ export default {
       ul {
         display: flex;
         justify-content: space-between;
-        padding: 20px 95px;
+        padding: 19px 95px;
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
         li {
@@ -103,7 +103,7 @@ export default {
         display: flex;
         align-items: center;
         border-right: 1px solid #fff;
-        padding: 20px 0;
+        padding: 19px 0;
       }
       .wines-footer-bottom__item-name {
         width: 28%;
@@ -118,7 +118,7 @@ export default {
         justify-content: space-around;
         align-items: center;
         width: 28%;
-        padding: 0 35px;
+        padding: 0 36px;
         border-right: 1px solid #fff;
       }
       .wines-footer-bottom__item-copyright {

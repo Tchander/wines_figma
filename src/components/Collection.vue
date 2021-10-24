@@ -106,7 +106,7 @@ export default {
 <style lang="scss" scoped>
 .wines-collection-section {
   background: #e6e3c4;
-  padding: 80px 0;
+  padding: 78px 0;
   .wines-collection__content {
     display: flex;
     border-top: 1px solid #998431;
@@ -145,7 +145,7 @@ export default {
       .wines-collection__content-info__cards {
         display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 38px;
         .wines-collection__content-info__cards-card {
           display: flex;
           border-bottom: 1px solid #282828;
@@ -161,7 +161,7 @@ export default {
             border-right: 1px solid #282828;
           }
           .wines-collection__content-info__cards-card-info {
-            margin: 5px 0 15px 30px;
+            margin: 10px 0 10px 30px;
             .wines-collection__content-info__cards-card-info__title {
               font-family: "Playfair Display", sans-serif;
               font-weight: 700;
@@ -182,7 +182,7 @@ export default {
       }
     }
     .wines-collection__content-images {
-      margin-left: 5px;
+      margin-left: 15px;
       .wines-collection__content-images__top {
         margin-bottom: 30px;
         img {

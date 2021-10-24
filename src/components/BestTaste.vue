@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
 .wines-best-section {
   background: #282828;
-  padding: 100px 0;
+  padding: 98px 0;
   .wines-best-rectangle {
     .wines-best__inner-wrapper {
       width: 100%;
@@ -46,7 +46,7 @@ export default {
         font-family: "Playfair Display", sans-serif;
         font-size: 36px;
         font-weight: 700;
-        margin-bottom: 54px;
+        margin-bottom: 56px;
       }
       .wines-best__line {
         border-bottom: 1px solid #fff;

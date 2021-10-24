@@ -61,7 +61,7 @@ export default {
       justify-content: space-between;
       font-size: 13px;
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
     .wines-header-navigation {
       ul {
@@ -72,7 +72,7 @@ export default {
           width: 100%;
           border: 1px solid #fff;
           border-left: none;
-          padding: 14px 0;
+          padding: 13px 0 11px 0;
           &:last-child {
             border-right: none;
           }
@@ -94,7 +94,7 @@ export default {
     width: 100%;
     max-width: 415px;
     margin: 0 auto;
-    padding: 582px 0 150px 0;
+    padding: 584px 0 150px 0;
   }
   .wines-header-section__image {
     position: absolute;
